@@ -1,0 +1,48 @@
+yburda:
+    name: "Yuri Burda"
+    url: "https://scholar.google.com/citations?hl=en&user=Amky96kAAAAJ&view_op=list_works&sortby=pubdate"
+    affiliation: "OpenAI"
+    img: "yburda.jpg"
+    bio: "Burda received his PhD in mathematics at the University of Toronto. Since then, he has been a research scientist at OpenAI. He is now mainly focusing on applying machine learning to mathematical reasoning, with the aim to improve future math education."
+
+hhajishirzi:
+    name: "Hannaneh Hajishirzi"
+    url: ""
+    affiliation: "University of Washington"
+    img: "hhajishirzi.jpg"
+    bio: "Hanna Hajishirzi is an Assistant Professor in the Paul G. Allen School of Computer Science & Engineering at the University of Washington and a Research Fellow at the Allen Institute for AI. Her research spans different areas in NLP and AI, focusing on developing machine learning algorithms that represent, comprehend, and reason about diverse forms of data at large scale. Applications for these algorithms include question answering, reading comprehension, representation learning, knowledge extraction, and conversational dialogue. Hanna received her PhD from University of Illinois and spent a year as a postdoc at Disney Research and CMU."
+
+msachan:
+    name: "Mrinmaya Sachan"
+    url: "https://sites.google.com/site/mrinsachan/"
+    affiliation: "ETH"
+    img: "msachan.jpg"
+    bio: " Sachan's interests are to build machine learning models for NLP, education, and knowledge reasoning. Specifically, he focuses on building and incorporating background knowledge to solve education problems in geometry, science, and math domains."
+
+ssingh:
+    name: "Sumeet Singh"
+    url: "https://www.linkedin.com/in/sumeetssingh/"
+    affiliation: "Turnitin"
+    img: "ssingh.jpg"
+    bio: "Singh is a distinguished scientist at Turnitin Gradescope, a company that has provided AI-assisted grading service to more than 1000 universities across the world. Sighn has rich research and industry experiences and plans to share his expertise and insights in building grading systems at Gradescope."
+
+kvanlehn:
+    name: "Kurt Vanlehn"
+    url: "https://www.public.asu.edu/~kvanlehn/"
+    affiliation: "Arizona State University"
+    img: "kvanlehn.jpg"
+    bio: "Vanlehn is the Diane and Gary Tooker Chair for Effective Education in Science, Technology, Engineering and Math at ASU, his research interests lie in intelligent tutoring systems, educational data mining, cognitive science, and learning science."
+
+swolfram:
+    name: "Stephen Wolfram"
+    url: "https://www.stephenwolfram.com/"
+    affiliation: "Wolfram Research"
+    img: "swolfram.png"
+    bio: "Wolfram is a computer scientist, mathematician, and businessman. He is the founder and CEO of the software company Wolfram Research and the creator of Mathematica, the Wolfram Language, and WolframAlpha answer engine. In 2012, he was named a fellow of the American Mathematical Society."
+
+szhu:
+    name: "Song-Chun Zhu"
+    url: "http://www.stat.ucla.edu/~sczhu/"
+    affiliation: "UCLA"
+    img: "szhu.jpg"
+    bio: "Zhu has been pursuing a general unified theory of vision, learning, cognition and AI for decades. In 2017, Zhu founded DMAI as an AI startup engaged in developing a cognitive language and math education platform."

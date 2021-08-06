@@ -1,0 +1,91 @@
+opening:
+  event: "Introduction and Opening Remarks"
+  start: "08:55-09:00"
+  type: "General"
+jurban:
+  event: "jurban"
+  title: ""
+  start: "09:00-09:30"
+  type: "Invited"
+ybengio:
+  event: "ybengio"
+  title: ""
+  start: "09:30-10:00"
+  type: "Invited"
+poster1:
+  event: "Poster Session 1"
+  start: "10:00-10:30"
+  type: "General"
+break1:
+  event: "Coffee Break"
+  title: ""
+  start: "10:30-11:00"
+  type: "General"
+alison:
+  event: "alison"
+  title: ""
+  start: "11:00-11:30"
+  type: "Invited"
+mjamnik:
+  event: "mjamnik"
+  title: ""
+  start: "11:30-12:00"
+  type: "Invited"
+jmcclelland:
+  event: "jmcclelland"
+  title: ""
+  start: "12:00-12:30"
+  type: "Invited"
+break2:
+  event: "Coffee Break"
+  title: ""
+  start: "12:30-13:00"
+  type: "General"
+panel1:
+  event: ""
+  speakers: ""
+  start: "13:00-14:00"
+  type: "Panel"  
+break3:
+  event: "Coffee Break"
+  title: ""
+  start: "14:00-14:30"
+  type: "General"
+mrabe:
+  event: "mrabe"
+  title: ""
+  start: "14:30-15:00"
+  type: "Invited"
+poster2:
+  event: "Poster Session2"
+  start: "15:00-15:30"
+  type: "General"
+break4:
+  event: "Coffee Break"
+  title: ""
+  start: "15:30-16:00"
+  type: "General"
+spolu:
+  event: "spolu"
+  title: ""
+  start: "16:00-16:30"
+  type: "Invited"
+contrib1:
+  event: ""
+  author: ""
+  start: "16:30-16:50"
+  type: "Contributed"
+contrib2:
+  event: ""
+  author: ""
+  start: "16:50-17:10"
+  type: "Contributed"
+contrib3:
+  event: ""
+  author: ""
+  start: "17:10-17:30"
+  type: "Contributed"
+closing:
+  event: "Closing Remarks"
+  start: "17:30-17:35"
+  type: "General"

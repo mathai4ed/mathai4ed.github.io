@@ -1,0 +1,99 @@
+paper_1:
+  authors: "Qing Li; Siyuan Huang; Yining Hong; Yixin Zhu; Ying Nian Wu; Song-Chun Zhu"
+  title: "A HINT from Arithmetic: On Systematic Generalization of Perception, Syntax, and Semantics"
+  alt_url: ""
+
+paper_2:
+  authors: "Nicholas Quek; Duo Wang; Mateja Jamnik"
+  title: "Pairwise Relations Discriminator for Unsupervised Raven's Progressive Matrices"
+  alt_url: ""
+
+paper_3:
+  authors: "Daniel Selsam"
+  title: "ML-Friendly Search Abstractions"
+  alt_url: ""
+
+paper_4:
+  authors: "Minchao Wu; Michael Norrish; Christian Walder; Amir Dezfouli"
+  title: "TacticZero: Learning to Prove Theorems from Scratch with Deep Reinforcement Learning"
+  alt_url: ""
+
+paper_5:
+  authors: "Piotr Piękos; Henryk Michalewski; Mateusz Malinowski"
+  title: "Measuring and Improving BERT's Mathematical Abilities by Predicting the Order of Reasoning"
+  alt_url: ""
+
+paper_6:
+  authors: "Vishesh Agarwal; Somak Aditya; Navin Goyal"
+  title: "Analyzing the Nuances of Transformers' Polynomial Simplification Abilitiess"
+  alt_url: ""
+
+paper_11:
+  authors: "Rodrigo Nogueira; Jimmy Lin; Zhiying Jiang"
+  title: "Investigating the Limitations of Transformers with Simple Arithmetic Tasks"
+  alt_url: ""
+
+paper_12:
+  authors: "Moa Johansson; Nicholas Smallbone"
+  title: "Automated Conjecturing in QuickSpec"
+  alt_url: ""
+
+paper_13:
+  authors: "Aviv Keren"
+  title: "The Role of General Intelligence in Mathematical Reasoning"
+  alt_url: ""
+
+paper_15:
+  authors: "Joanne T Kim; Mikel Landajuela; Brenden K Petersen"
+  title: "Distilling Wikipedia Mathematical Knowledge into Neural Network Models"
+  alt_url: ""
+
+paper_16:
+  authors: "Mikel Landajuela; Brenden K Petersen; Sookyung Kim; Claudio Santiago; Ruben Glatt; Nathan Mundhenk; Jacob Pettit; Daniel Faissol"
+  title: "Improving Exploration in Policy Gradient Search: Application to Symbolic Optimization"
+  alt_url: ""
+
+paper_18:
+  authors: "Vlad Firoiu; Eser Aygün; Ankit Anand; Zafarali Ahmed; Xavier Glorot; Laurent Orseau; Doina Precup; Shibl Mourad"
+  title: "Training a First-Order Theorem Prover from Synthetic Data"
+  alt_url: ""
+
+paper_19:
+  authors: "Hester Breman; Renee Hoekzema; Mikkel Johansen; Henrik Kragh Sørensen"
+  title: "AUGMENTING THE HUMAN MATHEMATICIAN"
+  alt_url: ""
+
+paper_20:
+  authors: "Yuhuai Wu; Markus N Rabe; Wenda Li; Jimmy Ba; Roger B Grosse; Christian Szegedy"
+  title: "LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning"
+  alt_url: ""
+
+paper_22:
+  authors: "Jin Peng Zhou; Yuhuai Wu; Qiyang Li; Roger B Grosse"
+  title: "Learning to Extract Theorems from Proofs"
+  alt_url: ""
+
+paper_23:
+  authors: "Jesse M Han; Jason Rute; Yuhuai Wu; Edward Ayers; Stanislas Polu"
+  title: "Proof Artifact Co-training for Theorem Proving With Language Models"
+  alt_url: ""
+
+paper_24:
+  authors: "Dan Hendrycks; Collin Burns; Saurav K Kadavath; Akul Arora; Steven Basart; Eric Tang; Dawn Song; Jacob Steinhardt"
+  title: "Measuring Mathematical Problem Solving With the MATH Dataset"
+  alt_url: ""
+
+paper_26:
+  authors: "Kevin Lu; Aditya Grover; Pieter Abbeel; Igor Mordatch"
+  title: "Transformer Language Models as Universal Computation Engines"
+  alt_url: ""
+
+paper_27:
+  authors: "Dan Hendrycks; Steven Basart; Saurav K Kadavath; Akul Arora; Collin Burns; Mantas Mazeika; Ethan Guo; Samir Puranik; Dawn Song; Jacob Steinhardt"
+  title: "Measuring Coding Challenge Competence With APPS"
+  alt_url: ""
+
+paper_29:
+  authors: "Harrison Edwards; Alethea Power; Yuri Burda; Igor Babuschkin; Vedant Misra"
+  title: "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets"
+  alt_url: ""
