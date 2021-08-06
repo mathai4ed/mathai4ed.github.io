@@ -2,10 +2,16 @@
 layout: page
 title: MATHAI4ED
 subtitle: "Math AI for Education: Bridging the Gap Between Research and Smart Education"
+# venue: "NeurIPS Workshop 2021, December 13, 2021"
 use-site-title: true
 ---
+<div class="venue" style="font-size: 27px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
+  (NeurIPS 2021 Workshop)
+</div>
+
 <div class="sharethis-inline-share-buttons"></div>
 <meta name="thumbnail" content="./img/neurips-logo-new.jpg" />
+
 
 # Overview
 
@@ -42,28 +48,28 @@ Enabling these applications requires not only innovations in math AI research, b
 # Speakers & Panelists
 <div class="container" style="margin-top: 20px;margin-bottom: 0px;">
   <div class="row">
-  {% for p in site.data.speakers %}
-  {% if forloop.index<=4 %}
-  {% capture id %}{{ p[0] }}{% endcapture %}
-  {% include profile.html p=p %}
-  {% endif %}
-  {% endfor %}
+    {% for p in site.data.speakers %}
+    {% if forloop.index<=4 %}
+    {% capture id %}{{ p[0] }}{% endcapture %}
+    {% include profile.html p=p %}
+    {% endif %}
+    {% endfor %}
   </div>
   <div class="row">
-  {% for p in site.data.speakers %}
-  {% capture id %}{{ p[0] }}{% endcapture %}
-  {% if forloop.index>4 and forloop.index<=10%}
-  {% include profile.html p=p %}
-  {% endif %}
-  {% endfor %}
+    {% for p in site.data.speakers %}
+    {% capture id %}{{ p[0] }}{% endcapture %}
+    {% if forloop.index>4 and forloop.index<=10%}
+    {% include profile.html p=p %}
+    {% endif %}
+    {% endfor %}
   </div>
   <div class="row">
-  {% for p in site.data.speakers %}
-  {% capture id %}{{ p[0] }}{% endcapture %}
-  {% if forloop.index>8%}
-  {% include profile.html p=p %}
-  {% endif %}
-  {% endfor %}
+    {% for p in site.data.speakers %}
+    {% capture id %}{{ p[0] }}{% endcapture %}
+    {% if forloop.index>8%}
+    {% include profile.html p=p %}
+    {% endif %}
+    {% endfor %}
   </div>
 <a href="speakers">More Info</a>
 </div>
@@ -75,12 +81,12 @@ Enabling these applications requires not only innovations in math AI research, b
 <!-- prettier-ignore -->
 <div class="container" style="margin-top: 25px;margin-bottom: 40px;">
   <div class="row">
-  {% for p in site.data.organizers %}
-  {% if forloop.index<=3 %}
-  {% capture id %}{{ p[0] }}{% endcapture %}
-  {% include profile.html p=p %}
-  {% endif %}
-  {% endfor %}
+    {% for p in site.data.organizers %}
+    {% if forloop.index<=3 %}
+    {% capture id %}{{ p[0] }}{% endcapture %}
+    {% include profile.html p=p %}
+    {% endif %}
+    {% endfor %}
   </div>
   <div class="row">
     {% for p in site.data.organizers %}
