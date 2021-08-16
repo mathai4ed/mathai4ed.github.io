@@ -60,8 +60,8 @@ We are also interested in works on other problems that integrate mathematical AI
 <!--{% include dates.md %} <a href="{site.url}/2020/img/KR2ML2020_template.zip">NeurIPS paper format (adapted)</a>. -->
 **Submission:** Sep 18, 2021 (11:59pm Pacific Time) <br>
 **Notification:** Oct 23, 2021 (11:59pm Pacific Time) <br>
-**Camera Ready:** Nov 01, 2021 (11:59pm A.O.E.) <br>
-**Workshop:** Dec 13, 2021
+**Camera Ready:** Nov 01, 2021 (11:59pm Pacific Time) <br>
+**Workshop:** Dec 14, 2021
 
 ### Submission Requirements
 
@@ -73,4 +73,4 @@ All accepted papers will be presented in a virtual poster session, and some will
 
 Submission Link: [ https://cmt3.research.microsoft.com/MATHAI4EDNEURIPS2021](https://cmt3.research.microsoft.com/MATHAI4EDNEURIPS2021)
 
-Please email any enquiries to [mathai.iclr2021@gmail.com](mailto:mathai4ed.neurips2021@gmail.com)
+Please email any enquiries to [mathai4ed.neurips2021@gmail.com](mailto:mathai4ed.neurips2021@gmail.com)
