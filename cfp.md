@@ -65,12 +65,12 @@ We are also interested in works on other problems that integrate mathematical AI
 
 ### Submission Requirements
 
-Submissions to MathAI4Ed 2021 are limited to 4 pages of content, but may contain an unlimited number of pages for references and appendices. The latter may not necessarily be read by the reviewers. We request and recommend that authors rely on the supplementary material only to include minor details (e.g., hyperparameter settings, reproducibility information, etc.) that do not fit in the 4 pages. The submission process is double-blind.
+Submissions to MathAI4Ed 2021 are limited to 4 pages of content, but may contain an unlimited number of pages for references and appendices. The latter may not necessarily be read by the reviewers. We request and recommend that authors rely on the supplementary material only to include minor details (e.g., hyperparameter settings, reproducibility information, etc.) that do not fit in the 4 pages. The review process is double-blind, so please ensure that all papers are appropriately anonymised.
 
 All submissions must be formatted with LaTeX using the [NeurIPS paper format (Adapted)](img/NeurIPS2021_MathAI4ED.zip).
 
-All accepted papers will be presented in a virtual poster session, and some will be selected for oral presentation. We welcome articles currently under review or papers planned for publication elsewhere. However, papers that have been published at an ML conference should not be submitted. Accepted papers will be published on the MathAI4Ed homepage, but are to be considered non-archival. 
+All accepted papers will be presented in a virtual poster session, and some will be selected for oral presentation. We also permit papers that have been recently published or are under submission to another venue. Please mark such papers accordingly upon submission. The page limit for these submissions is 4 pages. Accepted papers will be published on the MathAI4Ed homepage, but are to be considered non-archival. 
 
 Submission Link: [ https://cmt3.research.microsoft.com/MATHAI4EDNEURIPS2021](https://cmt3.research.microsoft.com/MATHAI4EDNEURIPS2021)
 
-Please email any enquiries to [mathai4ed.neurips2021@gmail.com](mailto:mathai4ed.neurips2021@gmail.com)
+Please email any enquiries to [mathai4ed.neurips2021@gmail.com](mailto:mathai4ed.neurips2021@gmail.com).
