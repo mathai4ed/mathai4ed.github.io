@@ -71,6 +71,6 @@ All submissions must be formatted with LaTeX using the [NeurIPS paper format (Ad
 
 All accepted papers will be presented in a virtual poster session, and some will be selected for oral presentation. We also permit papers that have been recently published or are under submission to another venue. Please mark such papers accordingly upon submission. The page limit for these submissions is 4 pages. Accepted papers will be published on the MathAI4Ed homepage, but are to be considered non-archival. 
 
-Submission Link: [ https://cmt3.research.microsoft.com/MATHAI4EDNEURIPS2021](https://cmt3.research.microsoft.com/MATHAI4EDNEURIPS2021)
+Submission Link: [https://cmt3.research.microsoft.com/MATHAI4ED2021](https://cmt3.research.microsoft.com/MATHAI4ED2021)
 
 Please email any enquiries to [mathai4ed.neurips2021@gmail.com](mailto:mathai4ed.neurips2021@gmail.com).
