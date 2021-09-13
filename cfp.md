@@ -37,7 +37,7 @@ We are also interested in works on other reasoning problems that share similar s
 * Text games -->
 
 
-The MathAI4Ed workshop will provide a forum for discussing how to investigate the *ntersection* of mathematics education and AI. We hope to gather a group of experts from a diverse set of backgrounds, institutions, and disciplines to drive progress on these and other real-world education scenarios, and to discuss the promise and challenge of integrating mathematical AI into education. 
+The MathAI4Ed workshop will provide a forum for discussing how to investigate the *intersection* of mathematics education and AI. We hope to gather a group of experts from a diverse set of backgrounds, institutions, and disciplines to drive progress on these and other real-world education scenarios, and to discuss the promise and challenge of integrating mathematical AI into education. 
 
 In particular, we are interested in, but not limited to, the following areas of applications: 
 - **Teaching**: Intelligent tutoring systems that effectively assist students in math learning.
