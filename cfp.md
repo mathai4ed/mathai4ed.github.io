@@ -59,7 +59,7 @@ We are also interested in key advances in artificial intelligence and machine le
 
 <!--{% include dates.md %} <a href="{site.url}/2020/img/KR2ML2020_template.zip">NeurIPS paper format (adapted)</a>. -->
 **Paper submission opens:** Sep 3, 12:00PM PST  <br>
-**Submission:** Oct 06, 2021 (11:59pm Pacific Time, one day after the ICLR 2022 submission deadline.) <br>
+**Deadline for paper submission: Oct 06, 2021 (11:59pm Pacific Time, one day after the ICLR 2022 submission deadline.)** <br>
 **Notification:** Oct 23, 2021 (11:59pm Pacific Time) <br>
 **Camera Ready:** Nov 01, 2021 (11:59pm Pacific Time) <br>
 **Workshop:** Dec 14, 2021
