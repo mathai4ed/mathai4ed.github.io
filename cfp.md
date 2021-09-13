@@ -37,9 +37,9 @@ We are also interested in works on other reasoning problems that share similar s
 * Text games -->
 
 
-The MathAI4Ed workshop is intended to provide a forum for discussing how to investigate the *intersection* of mathematics education and AI. We hope a group of experts from a diverse set of backgrounds, institutions, and disciplines to drive progress on these and other real-world education scenarios, and to discuss the promise and challenge of integrating mathematical AI into education. 
+The MathAI4Ed workshop will provide a forum for discussing how to investigate the *ntersection* of mathematics education and AI. We hope to gather a group of experts from a diverse set of backgrounds, institutions, and disciplines to drive progress on these and other real-world education scenarios, and to discuss the promise and challenge of integrating mathematical AI into education. 
 
-In particular, we are but not limited to the following areas of applications: 
+In particular, we are interested in, but not limited to, the following areas of applications: 
 - **Teaching**: Intelligent tutoring systems that effectively assist students in math learning.
 - **Evaluation**: AI-assisted grading systems like Gradescope and personalized testing platforms like IXL.
 - **Assisting**: Symbolic mathematics tools such as Mathematica and Maple in advanced math education.
@@ -49,7 +49,7 @@ We are also interested in these applications require key advances in artificial 
 - **Reasoning**: Informal and formal reasoning agents that can communicate and interact with humans.
 - **Core methods**: Multimodal and neuro-symbolic approaches in mathematical domains.
 
-We are also interested in works on other problems that integrate mathematical AI into education, such as,
+We are also interested in key advances in artificial intelligence and machine learning that enable these applications, such as:
 - **Accessibility**: How can AI most effectively aid mathematical education for a diversity of backgrounds?
 - **Applications**: Which near- and long-term applications of AI in math education are most impactful?
 - **Approaches**: Which research advances are necessary for enabling these applications?
@@ -58,6 +58,7 @@ We are also interested in works on other problems that integrate mathematical AI
 ### Important Dates 
 
 <!--{% include dates.md %} <a href="{site.url}/2020/img/KR2ML2020_template.zip">NeurIPS paper format (adapted)</a>. -->
+**Paper submission opens:** Sep 3, 12:00PM PST  <br>
 **Submission:** Oct 06, 2021 (11:59pm Pacific Time, one day after the ICLR 2022 submission deadline.) <br>
 **Notification:** Oct 23, 2021 (11:59pm Pacific Time) <br>
 **Camera Ready:** Nov 01, 2021 (11:59pm Pacific Time) <br>
