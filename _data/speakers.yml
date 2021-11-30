@@ -5,12 +5,26 @@ yburda:
     img: "yburda.jpg"
     bio: "Burda received his PhD in mathematics at the University of Toronto. Since then, he has been a research scientist at OpenAI. He is now mainly focusing on applying machine learning to mathematical reasoning, with the aim to improve future math education."
 
+jboaler:
+    name: "Jo Boaler"
+    url: "https://ed.stanford.edu/faculty/joboaler"
+    affiliation: "Stanford University"
+    img: "jboaler.jpg"
+    bio: "Jo Boaler is a British education author and Nomellini-Olivier Professor of Mathematics Education at the Stanford Graduate School of Education. Boaler is involved in promoting reform mathematics and equitable mathematics classrooms. She is the co-founder and faculty director of youcubed, a Stanford centre that markets and sells mathematics education resources to teachers, students and parents. She is the author of nine books, including Limitless Mind (2019), Mathematical Mindsets (2016), What's Math Got To Do With It? (2009) and The Elephant in the Classroom (2010), all written for teachers and parents with the goal of improving mathematics education in both the US and UK."
+
 hhajishirzi:
     name: "Hannaneh Hajishirzi"
     url: ""
     affiliation: "University of Washington"
     img: "hhajishirzi.jpg"
     bio: "Hanna Hajishirzi is an Assistant Professor in the Paul G. Allen School of Computer Science & Engineering at the University of Washington and a Research Fellow at the Allen Institute for AI. Her research spans different areas in NLP and AI, focusing on developing machine learning algorithms that represent, comprehend, and reason about diverse forms of data at large scale. Applications for these algorithms include question answering, reading comprehension, representation learning, knowledge extraction, and conversational dialogue. Hanna received her PhD from University of Illinois and spent a year as a postdoc at Disney Research and CMU."
+
+cpiech:
+    name: "Chris Piech"
+    url: "https://web.stanford.edu/~cpiech/bio/index.html"
+    affiliation: "Stanford University"
+    img: "cpiech.jpg"
+    bio: "Chris Piech is an Assistant Professor of Computer Science Education, Stanford University. Piech was born and grew up in Nairobi, Kenya. When Piech was twelve Piech moved to Kuala Lumpur, Malaysia where Piech lived until Piech came to Stanford for university, liked it a lot and stayed. Piech loves teaching and Piech is into exploring our world (through both science and travelling). Piech's research is in machine learning to understand human learning."
 
 msachan:
     name: "Mrinmaya Sachan"
@@ -46,3 +60,4 @@ szhu:
     affiliation: "UCLA"
     img: "szhu.jpg"
     bio: "Zhu has been pursuing a general unified theory of vision, learning, cognition and AI for decades. In 2017, Zhu founded DMAI as an AI startup engaged in developing a cognitive language and math education platform."
+

@@ -2,90 +2,106 @@ opening:
   event: "Introduction and Opening Remarks"
   start: "08:55-09:00"
   type: "General"
-jurban:
-  event: "jurban"
-  title: ""
+
+szhu:
+  event: "szhu"
+  title: "Talk by Professor Song-Chun Zhu"
   start: "09:00-09:30"
   type: "Invited"
-ybengio:
-  event: "ybengio"
-  title: ""
+
+msachan:
+  event: "msachan"
+  title: "Natural Language Processing meets Educational Data Science"
   start: "09:30-10:00"
   type: "Invited"
+
 poster1:
   event: "Poster Session 1"
+  title: ""
+  author: ""
   start: "10:00-10:30"
   type: "General"
+
 break1:
   event: "Coffee Break"
   title: ""
   start: "10:30-11:00"
   type: "General"
-alison:
-  event: "alison"
-  title: ""
-  start: "11:00-11:30"
-  type: "Invited"
-mjamnik:
-  event: "mjamnik"
-  title: ""
-  start: "11:30-12:00"
-  type: "Invited"
-jmcclelland:
-  event: "jmcclelland"
-  title: ""
-  start: "12:00-12:30"
-  type: "Invited"
+
+swolfram:
+  event: "swolfram"
+  title: "Interview with Stephen Wolfram"
+  start: "11:00-12:00"
+  type: "Spotlights"
+
 break2:
-  event: "Coffee Break"
+  event: "Lunch Break"
   title: ""
-  start: "12:30-13:00"
+  start: "12:00-13:00"
   type: "General"
-panel1:
-  event: ""
-  speakers: ""
-  start: "13:00-14:00"
-  type: "Panel"  
+
+hhajishirzi:
+  event: "hhajishirzi"
+  title: "Talk by Professor Hannaneh Hajishirzi"
+  start: "13:00-13:30"
+  type: "Invited"
+
+yburda:
+  event: "yburda"
+  title: "Free-form Grading of Math Assignments: A case study in collaboration with Art of Problem Solving"
+  start: "13:30-14:00"
+  type: "Invited"
+
+kvanlehn:
+  event: "kvanlehn"
+  title: "FACT: An automated teaching assistant for middle school math classrooms"
+  start: "14:00-14:30"
+  type: "Invited"
+
+poster2:
+  event: "Poster Session 2"
+  title: ""
+  author: ""
+  start: "14:30-15:00"
+  type: "General"
+
 break3:
   event: "Coffee Break"
   title: ""
-  start: "14:00-14:30"
-  type: "General"
-mrabe:
-  event: "mrabe"
-  title: ""
-  start: "14:30-15:00"
-  type: "Invited"
-poster2:
-  event: "Poster Session2"
   start: "15:00-15:30"
   type: "General"
+
+kvanlehssinghn:
+  event: "ssingh"
+  title: "Weaving AI Into Education"
+  start: "15:30-16:00"
+  type: "Invited"
+
+contrib1:
+  event: "MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education"
+  author: "Tracy Jia Shen, Penn State University"
+  start: "16:00-16:20"
+  type: "Contributed"
+
+contrib2:
+  event: "Towards Grounded Natural Language Proof Generation"
+  author: "Jiacheng Liu, UW"
+  start: "16:20-16:40"
+  type: "Contributed"
+
 break4:
   event: "Coffee Break"
   title: ""
-  start: "15:30-16:00"
+  start: "16:40-17:00 "
   type: "General"
-spolu:
-  event: "spolu"
-  title: ""
-  start: "16:00-16:30"
-  type: "Invited"
-contrib1:
-  event: ""
-  author: ""
-  start: "16:30-16:50"
-  type: "Contributed"
-contrib2:
-  event: ""
-  author: ""
-  start: "16:50-17:10"
-  type: "Contributed"
-contrib3:
-  event: ""
-  author: ""
-  start: "17:10-17:30"
-  type: "Contributed"
+
+panel1:
+  event: "TBD"
+  speakers: "Jo Boaler, Chris Piech, TBD"
+  start: "17:00-18:00"
+  type: "Panel"  
+
 closing:
   event: "Closing Remarks"
-  start: "17:30-17:35"
+  start: "18:00-18:05"
   type: "General"
