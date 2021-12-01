@@ -97,7 +97,7 @@ break4:
 
 panel1:
   event: "TBD"
-  speakers: "Jo Boaler, Chris Piech, TBD"
+  speakers: "Jo Boaler (Stanford), Yuri Burda (OpenAI), Chris Piech (Stanford), Sumeet Singh (Turnitin), Kurt Vanlehn (ASU)"
   start: "17:00-18:00"
   type: "Panel"  
 
