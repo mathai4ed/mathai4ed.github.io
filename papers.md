@@ -12,60 +12,119 @@ use-site-title: true
 
 <div class="container">
   <ol>
-    <!-- {% for p in site.data.papers %} -->
-        <!-- <li id="{{ p[0] }}"> -->
-            <!-- <b>{{ p[1].title }}</b> -->
-            <!-- <br> -->
-            <!-- <i>{{ p[1].authors }}</i> -->
-            <!-- {% if p[1].alt_url == "" %} -->
-              <!-- (<a href="{{ site.baseurl }}/papers/KR2ML_2020_{{ p[0] }}.pdf">PDF</a>) -->
-            <!-- {% elsif p[1].alt_url == "NONE" %} -->
-              <!-- (PDF not available) -->
-            <!-- {% else %} -->
-              <!-- (<a href="{{ p[1].alt_url }}">PDF</a>) -->
-            <!-- {% endif %} -->
-        <!-- </li> -->
-    <!-- {% endfor %} -->
+    <!-- {% for p in site.data.papers %}
+        <li id="{{ p[0] }}">
+            <b>{{ p[1].title }}</b>
+            <br>
+            <i>{{ p[1].authors }}</i>
+            {% if p[1].alt_url == "" %}
+              (<a href="{{ site.baseurl }}/papers/KR2ML_2020_{{ p[0] }}.pdf">PDF</a>)
+            {% elsif p[1].alt_url == "NONE" %}
+              (PDF not available)
+            {% else %}
+              (<a href="{{ p[1].alt_url }}">PDF</a>)
+            {% endif %}
+        </li>
+    {% endfor %} -->
 
-<!-- 1. <b>A HINT from Arithmetic: On Systematic Generalization of Perception, Syntax, and Semantics</b> <br><i>Qing Li; Siyuan Huang; Yining Hong; Yixin Zhu; Ying Nian Wu; Song-Chun Zhu</i>[<a href="papers/MATHAI_1_paper.pdf">Paper</a>][<a href="posters/MATHAI_1_poster.png">Poster</a>][<a href="https://player.vimeo.com/video/511032740">Video</a>]
-<br>
-2. <b>Pairwise Relations Discriminator for Unsupervised Raven's Progressive Matrices</b> <br><i>Nicholas Quek; Duo Wang; Mateja Jamnik</i>[<a href="papers/MATHAI_2_paper.pdf">Paper</a>][<a href="posters/MATHAI_2_poster.png">Poster</a>]
-<br>
-3. <b>Beyond the Tactic-State Automaton</b> <br><i>Daniel Selsam</i>[<a href="papers/MATHAI_3_paper.pdf">Paper</a>][<a href="posters/MATHAI_3_poster.pdf">Poster</a>]
-<br>
-4. <b>TacticZero: Learning to Prove Theorems from Scratch with Deep Reinforcement Learning</b> <br><i>Minchao Wu; Michael Norrish; Christian Walder; Amir Dezfouli</i>[<a href="papers/MATHAI_4_paper.pdf">Paper</a>][<a href="posters/MATHAI_4_poster.pdf">Poster</a>]
-<br>
-5. <b>Measuring and Improving BERT's Mathematical Abilities by Predicting the Order of Reasoning</b> <br><i>Piotr Piękos; Henryk Michalewski; Mateusz Malinowski</i>[<a href="papers/MATHAI_5_paper.pdf">Paper</a>][<a href="posters/MATHAI_5_poster.png">Poster</a>]
-<br>
-6. <b>Analyzing the Nuances of Transformers' Polynomial Simplification Abilitiess</b> <br><i>Vishesh Agarwal; Somak Aditya; Navin Goyal</i>[<a href="papers/MATHAI_6_paper.pdf">Paper</a>][<a href="posters/MATHAI_6_poster.pdf">Poster</a>][<a href="https://youtu.be/Qjh76c3_qLI">Video</a>]
-<br>
-7. <b>Investigating the Limitations of Transformers with Simple Arithmetic Tasks</b> <br><i>Rodrigo Nogueira; Jimmy Lin; Zhiying Jiang</i>[<a href="papers/MATHAI_11_paper.pdf">Paper</a>][<a href="posters/MATHAI_11_poster.png">Poster</a>]
-<br>
-8. <b>Automated Conjecturing in QuickSpec</b> <br><i>Moa Johansson; Nicholas Smallbone</i>[<a href="papers/MATHAI_12_paper.pdf">Paper</a>][<a href="posters/MATHAI_12_poster.png">Poster</a>]
-<br>
-9. <b>The Role of General Intelligence in Mathematical Reasoning</b> <br><i>Aviv Keren</i>[<a href="papers/MATHAI_13_paper.pdf">Paper</a>][<a href="posters/MATHAI_13_poster.png">Poster</a>][<a href="https://www.youtube.com/watch?v=tIDzzWJVXpc">Video</a>]
-<br>
-10. <b>Distilling Wikipedia Mathematical Knowledge into Neural Network Models</b> <br><i>Joanne T Kim; Mikel Landajuela; Brenden K Petersen</i>[<a href="papers/MATHAI_15_paper.pdf">Paper</a>][<a href="posters/MATHAI_15_poster.png">Poster</a>]
-<br>
-11. <b>Improving Exploration in Policy Gradient Search: Application to Symbolic Optimization</b> <br><i>Mikel Landajuela; Brenden K Petersen; Sookyung Kim; Claudio Santiago; Ruben Glatt; Nathan Mundhenk; Jacob Pettit; Daniel Faissol</i>[<a href="papers/MATHAI_16_paper.pdf">Paper</a>][<a href="posters/MATHAI_16_poster.png">Poster</a>]
-<br>
-12. <b>Training a First-Order Theorem Prover from Synthetic Data</b> <br><i>Vlad Firoiu; Eser Aygün; Ankit Anand; Zafarali Ahmed; Xavier Glorot; Laurent Orseau; Doina Precup; Shibl Mourad</i>[<a href="papers/MATHAI_18_paper.pdf">Paper</a>][<a href="posters/MATHAI_18_poster.png">Poster</a>]
-<br>
-13. <b>AUGMENTING THE HUMAN MATHEMATICIAN</b> <br><i>Hester Breman; Renee Hoekzema; Mikkel Johansen; Henrik Kragh Sørensen</i>[<a href="papers/MATHAI_19_paper.pdf">Paper</a>][<a href="posters/MATHAI_19_poster.png">Poster</a>]
-<br>
-14. <b>LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning</b> <br><i>Yuhuai Wu; Markus N Rabe; Wenda Li; Jimmy Ba; Roger B Grosse; Christian Szegedy</i>[<a href="papers/MATHAI_20_paper.pdf">Paper</a>][<a href="posters/MATHAI_20_poster.pdf">Poster</a>]
-<br>
-15. <b>REFACTOR: Learning to Extract Theorems from Proofs</b> <br><i>Jin Peng Zhou; Yuhuai Wu; Qiyang Li; Roger B Grosse</i>[<a href="papers/MATHAI_22_paper.pdf">Paper</a>][<a href="posters/MATHAI_22_poster.png">Poster</a>]
-<br>
-16. <b>Proof Artifact Co-training for Theorem Proving With Language Models</b> <br><i>Jesse M Han; Jason Rute; Yuhuai Wu; Edward Ayers; Stanislas Polu</i>[<a href="papers/MATHAI_23_paper.pdf">Paper</a>][<a href="posters/MATHAI_23_poster.pdf">Poster</a>]
-<br>
-17. <b>Measuring Mathematical Problem Solving With the MATH Dataset</b> <br><i>Dan Hendrycks; Collin Burns; Saurav K Kadavath; Akul Arora; Steven Basart; Eric Tang; Dawn Song; Jacob Steinhardt</i>[<a href="papers/MATHAI_24_paper.pdf">Paper</a>][<a href="posters/MATHAI_24_poster.png">Poster</a>]
-<br>
-18. <b>Pretrained Transformers as Universal Computation Engines</b> <br><i>Kevin Lu; Aditya Grover; Pieter Abbeel; Igor Mordatch</i>[<a href="papers/MATHAI_26_paper.pdf">Paper</a>][<a href="posters/MATHAI_26_poster.png">Poster</a>]
-<br>
-19. <b>Measuring Coding Challenge Competence With APPS</b> <br><i>Dan Hendrycks; Steven Basart; Saurav K Kadavath; Mantas Mazeika; Akul Arora; Ethan Guo; Collin Burns; Samir Puranik; Horace He; Dawn Song; Jacob Steinhardt</i>[<a href="papers/MATHAI_27_paper.pdf">Paper</a>][<a href="posters/MATHAI_27_poster.pdf">Poster</a>]
-<br>
-20. <b>Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets</b> <br><i>Harrison Edwards; Alethea Power; Yuri Burda; Igor Babuschkin; Vedant Misra</i>[<a href="papers/MATHAI_29_paper.pdf">Paper</a>][<a href="posters/MATHAI_29_poster.png">Poster</a>]
-<br>
+  1. <b>MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education</b><br>     
+    <i>Tracy Jia Shen; Michiharu Yamashita; Ethan Prihar; Neil Heffernan; Xintao Wu; Ben Graff; Dongwon Lee</i>
+    <b>(Best Paper Reward)</b><br>
+    [<a href="papers/paper_1.pdf">Paper</a>]
+    [<a href="posters/poster_1.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/ysm3f4SN6wfVm7rn/matheai4ed-poster-room-1?map=poster-room-with-titles&spawnx=81&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+    
+
+  2. <b>Evaluation of mathematical questioning strategies using data collected through weak supervision</b><br>  
+    <i>Debajyoti Datta; Maria Phillips; Jim P. Bywater; Jennifer L. Chiu; Ginger S. Watson; Laura E Barnes; Donald Brown</i> <br>
+    [<a href="papers/paper_2.pdf">Paper</a>]
+    [<a href="posters/poster_2.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/F5DFJWpiklkq5V45/matheai4ed-poster-room-2?map=poster-room-with-titles&spawnx=68&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  3. <b>An Empirical Study of Finding Similar Exercises</b><br>  
+    <i>Tongwen Huang; Li Xihua</i> <br>
+    [<a href="papers/paper_3.pdf">Paper</a>]
+    [<a href="papers/paper_3_supp.pdf">Supplimentary</a>]
+    [<a href="posters/poster_3.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/F5DFJWpiklkq5V45/matheai4ed-poster-room-2?map=poster-room-with-titles&spawnx=55&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  4. <b>Exploring Student Representation For Neural Cognitive Diagnosis</b><br>  
+    <i>Hengyao Bao; Li Xihua</i> <br>
+    [<a href="papers/paper_4.pdf">Paper</a>]
+    [<a href="posters/poster_4.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/F5DFJWpiklkq5V45/matheai4ed-poster-room-2?map=poster-room-with-titles&spawnx=42&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  5. <b>Phygital Math Learning with Handwriting for Kids</b><br>  
+    <i>Nrupatunga .; Aashish Kumar; Anoop Kolar Rajagopal</i> <br>
+    [<a href="papers/paper_5.pdf">Paper</a>]
+    [<a href="posters/poster_5.png">Poster</a>]
+    [<a href="papers/paper_5_End-to-End-App-Demo.mp4">Demo</a>]
+    [<a href="https://eventhosts.gather.town/F5DFJWpiklkq5V45/matheai4ed-poster-room-2?map=poster-room-with-titles&spawnx=29&spawny=4">GatherTown</a>]
+    
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  6. <b>GeoRE: A Relation Extraction Dataset for Chinese Geometry Problems</b><br>  
+    <i>Wei Yu; Shuyu Miao; Xun Zhou; Jingdong Liu; Yongfu Zha; Yongjian Zhang; Mengzhu Wang; Xiaodong Wang</i> <br>
+    [<a href="papers/paper_6.pdf">Paper</a>]
+    [<a href="posters/poster_6.png">Poster</a>]
+    [<a href="papers/paper_6_GeoRE_sample.json">Dataset</a>]
+    [<a href="https://eventhosts.gather.town/ysm3f4SN6wfVm7rn/matheai4ed-poster-room-1?map=poster-room-with-titles&spawnx=68&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  7. <b>REAL2: An end-to-end memory-augmented solver for math word problems</b><br>  
+    <i>Shifeng Huang; Jiawei Wang; Jiao Xu; Da Cao; Ming Yang</i> <br>
+    [<a href="papers/paper_7.pdf">Paper</a>]
+    [<a href="posters/poster_7.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/ysm3f4SN6wfVm7rn/matheai4ed-poster-room-1?map=poster-room-with-titles&spawnx=55&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  8. <b>Theorem-Aware Geometry Problem Solving with Symbolic Reasoning and Theorem Prediction</b><br>  
+    <i>Pan Lu; Ran Gong; Shibiao Jiang; Liang Qiu; Siyuan Huang; Xiaodan Liang; Song-Chun Zhu</i> <br>
+    [<a href="papers/paper_8.pdf">Paper</a>]
+    [<a href="posters/poster_8.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/ysm3f4SN6wfVm7rn/matheai4ed-poster-room-1?map=poster-room-with-titles&spawnx=42&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  9. <b>Who Gets the Benefit of the Doubt? Racial Bias in Machine Learning Algorithms Applied to Secondary School Math Education</b><br>  
+    <i>Haewon Jeong; Michael D. Wu; Nilanjana Dasgupta; Muriel Medard; Flavio Calmon</i> <br>
+    [<a href="papers/paper_9.pdf">Paper</a>]
+    [<a href="papers/paper_9_supp.pdf">Supplimentary</a>]
+    [<a href="posters/poster_9.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/F5DFJWpiklkq5V45/matheai4ed-poster-room-2?map=poster-room-with-titles&spawnx=16&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  10. <b>Towards Grounded Natural Language Proof Generation</b><br>  
+    <i>Sean Welleck; Jiacheng Liu; Yejin Choi</i> <br>
+    [<a href="papers/paper_10.pdf">Paper</a>]
+    [<a href="posters/poster_10.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/ysm3f4SN6wfVm7rn/matheai4ed-poster-room-1?map=poster-room-with-titles&spawnx=29&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  11. <b>Gamifying Math Education using Object Detection</b><br>  
+    <i>Rohit Nambiar; Yueqiu Sun; Vivek Vidyasagaran</i> <br>
+    [<a href="papers/paper_11.pdf">Paper</a>]
+    [<a href="papers/paper_11_supp.pdf">Supplimentary</a>]
+    [<a href="posters/poster_11.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/F5DFJWpiklkq5V45/matheai4ed-poster-room-2?map=poster-room-with-titles&spawnx=3&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  12. <b>Towards Diagram Understanding and Cognitive Reasoning in Icon Question Answering</b><br>  
+    <i>Pan Lu; Liang Qiu; Jiaqi Chen; Tony Xia; Yizhou Zhao; Wei Zhang; Zhou Yu; Xiaodan Liang; Song-Chun Zhu</i> <br>
+    [<a href="papers/paper_12.pdf">Paper</a>]
+    [<a href="posters/poster_12.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/ysm3f4SN6wfVm7rn/matheai4ed-poster-room-1?map=poster-room-with-titles&spawnx=16&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
+  13. <b>Geometric Question Answering Towards Multimodal Numerical Reasoning</b><br>  
+    <i>Jiaqi Chen; Jianheng Tang; Jinghui Qin; Xiaodan Liang; Lingbo Liu; Eric Xing; Liang Lin</i> <br>
+    [<a href="papers/paper_13.pdf">Paper</a>]
+    [<a href="posters/poster_13.png">Poster</a>]
+    [<a href="https://eventhosts.gather.town/ysm3f4SN6wfVm7rn/matheai4ed-poster-room-1?map=poster-room-with-titles&spawnx=3&spawny=4">GatherTown</a>]
+    [<a href="https://neurips.cc/virtual/2021/workshop/21828">Video</a>] <br><br>
+
 </ol>
-</div> -->
+</div>
