@@ -11,7 +11,7 @@ use-site-title: true
 
 # Schedule
 
-#### Monday, December 14, 2021
+#### Tuesday, December 14, 2021
 #### All times are in PST (UTC -8)
 <!-- #### Location: West 109 + 110, Area West Level 1 -->
 <!-- #### Live Video Stream: [link](https://slideslive.com/neurips/neurips-2019-west-109-110-live) -->
