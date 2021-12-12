@@ -5,7 +5,7 @@ opening:
 
 szhu:
   event: "szhu"
-  title: "Talk by Professor Song-Chun Zhu"
+  title: "Solving Mathematical Problems by Reasoning with And-Or-Graph"
   start: "09:00-09:30"
   type: "Invited"
 
@@ -96,7 +96,7 @@ break4:
   type: "General"
 
 panel1:
-  event: "TBD"
+  event: "Math AI for Education: Bridging the Gap Between Research and Smart Education"
   speakers: "Jo Boaler (Stanford), Yuri Burda (OpenAI), Chris Piech (Stanford), Sumeet Singh (Turnitin), Kurt Vanlehn (ASU)"
   start: "17:00-18:00"
   type: "Panel"  
