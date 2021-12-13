@@ -77,10 +77,14 @@ use-site-title: true
           <td>
             {% for speaker_id in s[1].speakers %}
               {% assign speaker = site.data.speakers[speaker_id] %}
-              {% if speaker_id != s[1].speakers[0] %}
-              , 
+              {% if speaker_id != s[1].speakers[-1] %}
+                <a href="{{speaker.url}}">{{ speaker.name }}</a> ({{speaker.affiliation}}),
+              {% else %}
+                <a href="{{speaker.url}}">{{ speaker.name }}</a> ({{speaker.affiliation}})
               {% endif %}
-              <a href="{{speaker.url}}">{{ speaker.name }}</a> ({{speaker.affiliation}})
+              {% if forloop.index == 3 %}
+                  <br>
+              {% endif %}
             {% endfor %}
           </td>
         {% endif %}
