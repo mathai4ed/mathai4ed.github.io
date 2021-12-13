@@ -32,16 +32,20 @@ use-site-title: true
           {% assign speaker = site.data.speakers[speaker_id] %}
           <td >
             <i>{{ s[1].title }}</i><br>
-          <a href="{{speaker.url}}">{{ speaker.name }}</a>, {{speaker.affiliation}}
-          {% if speaker.title == "TBA" %}
-          {% else %}
-          <br><i><b>{{ speaker.title }}</b></i>
-          {% endif %}
+            <a href="{{speaker.url}}">{{ speaker.name }}</a>, {{speaker.affiliation}}
+            {% if speaker.title == "TBA" %}
+            {% else %}
+            <br><i><b>{{ speaker.title }}</b></i>
+            {% endif %}
           </td>
 
         {% elsif s[1].type == "Contributed" %}
-          <td>Contributed Talk</td>
-          <td ><i>{{ s[1].event }}</i><br>{{ s[1].author }}</td>
+          <td >Contributed Talk</td>
+          {% assign speaker = s[1] %}
+          <td >
+            <i>{{ speaker.title }}</i><br>
+            <a href="{{speaker.url}}">{{ speaker.name }}</a>, {{speaker.affiliation}}
+          </td>
 
         {% elsif s[1].type == "Spotlights" %}
           <td>Spotlights</td>
@@ -49,11 +53,11 @@ use-site-title: true
           {% assign speaker = site.data.speakers[speaker_id] %}
           <td >
             <i>{{ s[1].title }}</i><br>
-          <a href="{{speaker.url}}">{{ speaker.name }}</a>, {{speaker.affiliation}}
-          {% if speaker.title == "TBA" %}
-          {% else %}
-          <br><i><b>{{ speaker.title }}</b></i>
-          {% endif %}
+            <a href="{{speaker.url}}">{{ speaker.name }}</a>, {{speaker.affiliation}}
+            {% if speaker.title == "TBA" %}
+            {% else %}
+            <br><i><b>{{ speaker.title }}</b></i>
+            {% endif %}
           </td>
 
         {% elsif s[1].type == "Break" %}
@@ -69,8 +73,16 @@ use-site-title: true
           <td >{{ s[1].event }}</td>
           
         {% elsif s[1].type == "Panel" %}
-          <td >Discussion Panel</td>
-          <td ><i>{{ s[1].event }}</i><br>{{ s[1].speakers }}</td>
+          <td >Panel Discussion</td>
+          <td>
+            {% for speaker_id in s[1].speakers %}
+              {% assign speaker = site.data.speakers[speaker_id] %}
+              {% if speaker_id != s[1].speakers[0] %}
+              , 
+              {% endif %}
+              <a href="{{speaker.url}}">{{ speaker.name }}</a> ({{speaker.affiliation}})
+            {% endfor %}
+          </td>
         {% endif %}
 
         <!-- <td>

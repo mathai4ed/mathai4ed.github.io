@@ -78,14 +78,18 @@ kvanlehssinghn:
   type: "Invited"
 
 contrib1:
-  event: "MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education"
-  author: "Tracy Jia Shen, Penn State University"
+  title: "MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education"
+  name: "Tracy Jia Shen"
+  url: "https://thinkregressively.netlify.app/"
+  affiliation: "Penn State University"
   start: "16:00-16:20"
   type: "Contributed"
 
 contrib2:
-  event: "Towards Grounded Natural Language Proof Generation"
-  author: "Jiacheng Liu, UW"
+  title: "Towards Grounded Natural Language Proof Generation"
+  name: "Jiacheng (Gary) Liu"
+  url: "https://liujch1998.github.io/"
+  affiliation: "University of Washington"
   start: "16:20-16:40"
   type: "Contributed"
 
@@ -96,8 +100,10 @@ break4:
   type: "General"
 
 panel1:
-  event: "Math AI for Education: Bridging the Gap Between Research and Smart Education"
-  speakers: "Jo Boaler (Stanford), Yuri Burda (OpenAI), Chris Piech (Stanford), Sumeet Singh (Turnitin), Kurt Vanlehn (ASU)"
+  event: "Panel Discussion"
+  title: "Math AI for Education: Bridging the Gap Between Research and Smart Education"
+  # speakers: "Jo Boaler (Stanford), Yuri Burda (OpenAI), Chris Piech (Stanford), Sumeet Singh (Turnitin), Kurt Vanlehn (ASU)"
+  speakers: ["jboaler", "yburda", "cpiech", "ssingh", "kvanlehn"]
   start: "17:00-18:00"
   type: "Panel"  
 
