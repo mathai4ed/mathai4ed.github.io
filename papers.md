@@ -29,7 +29,7 @@ use-site-title: true
 
   1. <b>MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education</b><br>     
     <i>Tracy Jia Shen; Michiharu Yamashita; Ethan Prihar; Neil Heffernan; Xintao Wu; Ben Graff; Dongwon Lee</i>
-    <b>(Best Paper Reward)</b><br>
+    <b>(Best Paper Award)</b><br>
     [<a href="papers/paper_1.pdf">Paper</a>]
     [<a href="posters/poster_1.png">Poster</a>]
     [<a href="https://eventhosts.gather.town/ysm3f4SN6wfVm7rn/matheai4ed-poster-room-1?map=poster-room-with-titles&spawnx=81&spawny=4">GatherTown</a>]
